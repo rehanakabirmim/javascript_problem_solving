@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Event</title>
+</head>
+<body>
+    <!-- click  function satrt -->
+<h1>ONCLICK JAVASCRIPT EVENT</h1> 
+    
+<button onclick="myfunction()">Click me</button>
+<p id="click" style="color:red"></p>
+ <!-- click  function end -->
+
+
+<!-- onchange function start -->
+<h1>ONCHANGE JAVASCRIPT EVENT</h1> 
+<select id="myselect" onchange="onchangeFunction()">
+<option value="A">a</option>
+<option value="B">b</option>
+<option value="C">c</option>
+<option value="D">d</option>
+</select>
+<p id="demo"></p>
+<!-- onchange function end -->
+
+<!-- onfocusin function start -->
+<h1>FOCUSIN EVENT</h1>
+ Enter your name:<input type="text"  onfocusin="focusFunctiopn(this)"> <!--//this is argument.ekhane this use krtei hbe cz this hocche object er ekti self keyword -->
+ <!-- onfocusin function end -->
+ 
+
+ <!-- onfocusout function start -->
+ <h1>FOCUOUT EVENT</h1>
+ Enter your email:<input type ="email" id="email" onfocusout="focusoutFunction()">
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<script src="event.js"></script>
+    
+
+</body>
+</html>
+ 
