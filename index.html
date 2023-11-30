@@ -4,12 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box{
+            background-color: aqua;
+            padding:22px 33px;
+            margin:12px;
+            float:left;
+            border-radius: 10px;;
+        }
+    </style>
 </head>
 <body>
    
+<!-- for namta/JavaScript Program to print multiplication table of a number -->
     
 
-    <form action="">
+<script>
+
+for(i=1;i<=10;i++){
+    document.write('<div class="box">')
+        for(j=1;j<=10;j++){
+            var r=(i*j);
+            document.write(i+ 'x' +j+ '=' +r+ '<br>');
+        }
+        document.write('</div>');
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form action="">
     <input type="text" id="first" placeholder="enter your first number ">
     
     <input type="text" id="second" placeholder="enter your second number">
@@ -18,12 +55,16 @@
 </form>
 
 
-   <h2 id="heading"></h2> 
+   <h2 id="heading"></h2>  -->
 
  
 
 
+<!-- 
+<script src="object.js"></script> -->
 
-<script src="object.js"></script>
+
+
+
 </body>
 </html>
